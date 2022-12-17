@@ -1,0 +1,153 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  color: whitesmoke;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav{
+  background-color: rgb(14, 14, 14);
+  height: 80px;
+  width: 100%;
+}
+
+nav ul{
+  float:right;
+  margin-right: 100px;  
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 30px;
+  font-size: 30px;
+}
+
+body{
+  background-color: rgb(24, 24, 24);
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: -150px;
+}
+
+.header_text{
+  text-align: center;
+  font-size: 70px;
+  padding: 150px 0 0 0;
+} 
+
+.picture{
+  text-align: center;
+  max-height: 50%;
+  padding: 150px 6% 15% 6%;
+}
+
+.picture_img{
+  width: 180px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.name{
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+}
+
+.anschreiben_text{
+  font-size: 50px;
+  text-align: center;
+  padding: 150px 10px 50px 0px;
+}
+
+.anschreiben{
+  background-color: rgb(14, 14, 14);
+  margin-left: 100px;
+  margin-right: 52%;
+  text-align: left;
+  padding: 0px 100px 150px 100px;
+  border-radius: 30px;
+}
+
+.lebenslauf_grid{
+  grid-gap: 1px;
+  text-align: right;
+  justify-content: center;
+  display:grid;
+  padding: 100px 100px 150px 100px;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px;
+  grid-auto-columns: auto;
+}
+
+.date{
+  margin-top: 10px;
+}
+
+.lebenslauf_text{
+  font-size: 50px;
+  text-align: center;
+  padding: 150px 50px 10px 100px;
+}
+
+.lebenslauf{
+  background-color: rgb(14, 14, 14);
+  margin-right: 100px;
+  margin-left: 52%;
+  border-radius: 30px;
+}
+
+.soft_skills{
+  background-color: rgb(14, 14, 14);
+  margin-left: 100px;
+  margin-right: 52%;
+  border-radius: 30px;
+}
+
+.soft_skills_text{
+  padding: 150px 50px 50px 100px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.soft_skills_sentence{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.soft_skills ul{
+  text-align: left;
+  margin-top: 30px;
+  padding: 0px 50px 150px 30%;
+  line-height: 25px;
+}
+
+h3{
+  background-color: rgb(14, 14, 14);
+  padding: 100px 0 100px 0;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+
+h4{
+  text-align: center;
+  padding: 80px 0 80px 0;
+  background-color: rgb(14, 14, 14);
+}
+
+.space_for_footer{
+  padding: 100px 0 100px 0;
+  
+}
+
+
