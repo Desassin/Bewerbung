@@ -22,9 +22,19 @@ nav ul{
 
 nav ul li{
   display: inline-block;
-  line-height: 80px;
-  margin: 0 30px;
+  line-height: 10px;
+  margin: 30px 30px;
   font-size: 30px;
+}
+
+nav ul li:hover{
+  box-shadow: 10px 15px 15px 5px black;
+  transition: box-shadow .4s;
+}
+
+nav ul li a:hover{
+  color: rgb(225, 167, 123);
+  transition: color .4s;
 }
 
 body{
@@ -114,7 +124,7 @@ body{
 }
 
 .soft_skills_text{
-  padding: 150px 50px 50px 100px;
+  padding: 150px 50px 50px 0%;
   font-size: 50px;
   text-align: center;
 }
@@ -128,7 +138,7 @@ body{
 .soft_skills ul{
   text-align: left;
   margin-top: 30px;
-  padding: 0px 50px 150px 30%;
+  padding: 0px 25% 150px 35%;
   line-height: 25px;
 }
 
